@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">45.1</item>
-    <item name="screen.full">225.1</item>
-    <item name="bluetooth.on">0.65</item>
-    <item name="bluetooth.active">84.5</item>
+    <item name="screen.on">49.4</item>
+    <item name="screen.full">284</item>
+    <item name="bluetooth.on">0.45</item>
+    <item name="bluetooth.active">54</item>
     <item name="wifi.on">0.29</item>
-    <item name="wifi.scan">39</item>
-    <item name="wifi.active">312</item>
-    <item name="gps.on">21.5</item>
+    <item name="wifi.scan">43</item>
+    <item name="wifi.active">286</item>
+    <item name="gps.on">33</item>
     <array name="radio.on">
-        <value>7.62</value>
-        <value>7.62</value>
+        <value>5.3</value>
+        <value>5.3</value>
     </array>
-    <item name="radio.scanning">116.8</item>
-    <item name="radio.active">112</item>
-    <item name="battery.capacity">3000</item>
-    <item name="cpu.idle">4.44</item>
-    <item name="cpu.awake">10.56</item>
+    <item name="radio.scanning">94</item>
+    <item name="radio.active">161</item>
+    <item name="battery.capacity">3600</item>
+    <item name="cpu.idle">3.7</item>
+    <item name="cpu.awake">9.5</item>
     <array name="cpu.speeds">
         <value>1872000</value>
         <value>1794000</value>
@@ -52,8 +52,8 @@
         <value>27</value>
         <value>25</value>
     </array>
-    <item name="dsp.audio">37</item>
-    <item name="dsp.video">154</item>
+    <item name="dsp.audio">41</item>
+    <item name="dsp.video">162</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>
         <value>.002</value>
@@ -61,6 +61,6 @@
         <value>.2</value>
         <value>2</value>
     </array>
-    <item name="camera.avg">386</item>
+    <item name="camera.avg">402</item>
     <item name="camera.flashlight">89</item>
 </device>

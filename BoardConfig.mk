@@ -16,16 +16,13 @@
 
 include device/samsung/universal7880-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/a5y17lte
-
-# Assertions
-TARGET_BOARD_INFO_FILE := $(LOCAL_PATH)/board-info.txt
+LOCAL_PATH := device/samsung/a7y17lte
 
 # Extracted with libbootimg
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/dtb.img
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage-a5y17lte_defconfig
+TARGET_KERNEL_CONFIG := lineage-a7y17lte_defconfig
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := a5y17lte,a5y17ltexx
+TARGET_OTA_ASSERT_DEVICE := a7y17lte,a7y17ltexx

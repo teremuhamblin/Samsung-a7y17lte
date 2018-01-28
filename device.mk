@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a5y17lte
+LOCAL_PATH := device/samsung/a7y17lte
 
 # Init
 PRODUCT_PACKAGES += \
@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 $(call inherit-product, device/samsung/universal7880-common/common.mk)
 # TODO: remove if-exists once a vendor actually exists
-$(call inherit-product-if-exists, vendor/samsung/a5y17lte/a5y17lte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/a7y17lte/a7y17lte-vendor.mk)
